@@ -1,6 +1,7 @@
 package com.dailypark;
 
 import com.dailypark.models.Address;
+import com.dailypark.models.people.Person;
 
 public class Main {
 
@@ -14,5 +15,11 @@ public class Main {
                 .streetAddress("Kalpana Nagar")
                 .build();
 
+        Person shiv = new Person.Builder("Shiv")
+                .phoneNumber("xyz")
+                .build();
+
+        System.out.println(a);
+        System.out.println(shiv);
     }
 }

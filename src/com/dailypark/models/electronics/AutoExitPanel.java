@@ -1,4 +1,16 @@
 package com.dailypark.models.electronics;
 
-public class AutoExitPanel extends Electronics {
+import com.dailypark.models.parking.Ticket;
+import com.dailypark.models.parking.interfaces.PaymentEnabled;
+
+public class AutoExitPanel extends Electronics implements PaymentEnabled {
+    @Override
+    public void processTicket(Ticket ticket) {
+
+    }
+
+    @Override
+    public void processPayment() {
+
+    }
 }
