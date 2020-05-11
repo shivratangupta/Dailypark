@@ -6,6 +6,10 @@ import com.dailypark.models.electronics.EntrancePanel;
 public class GroundFloor extends Floor {
     private EntrancePanel entrancePanel;
 
+    public GroundFloor(String name) {
+        super(name);
+    }
+
     public EntrancePanel getEntrancePanel() {
         return entrancePanel;
     }
